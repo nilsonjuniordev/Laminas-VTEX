@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>PWC-X4U</title>
+        <style type="text/css">	
+
+            body,html{                
+             width: 900px;
+             margin: 0;
+             margin-right: auto;
+             margin-left: auto;
+            }
+            
+            .njr-content{
+            width: 100%;
+           text-align: center;
+           overflow: hidden;
+            }
+
+            .njr-col100{
+           width: 100%;
+           overflow: hidden;
+            }
+            
+            .njr-col50{
+            width: 50%;         
+            overflow: hidden;
+            }
+            
+            .njr-col50l{
+            width: 50%;
+            float: left;       
+            overflow: hidden;
+            }
+            
+            .njr-col50r{
+            width: 50%;          
+            float: right;  
+            overflow: hidden;
+            }
+
+            .njr-col25r{
+            width: 33%;          
+            float: right;  
+            overflow: hidden;
+            }
+
+            .njr-col75l{
+                width: 66%;          
+            float: left;  
+            overflow: hidden;
+
+            }
+
+
+            .bg1{
+            background: url(img/njr-bg1.jpg) no-repeat;
+            background-size: cover;
+            width: 900px;
+            height:614px;
+            margin-right: auto;
+            margin-left: auto;
+            }
+
+            .bg1 h3{
+                padding: 15px;
+                font-family:'Maven Pro', sans-serif;
+                padding-top: 350px;
+                margin: 0;
+                padding-left: 80px;
+                font-size: 30px; 
+                text-align: left;
+                font-weight: 300;
+               color: #676767;
+                }
+            
+            .bg2{
+            background: #03aba5;
+            width: 100%;
+            height: 480px;            
+            }
+            
+            .bg2 img{
+            padding-top: 50px;
+            width: 80%;
+            height: auto;
+           
+            }
+
+            .bg2 .njr-col50r img{
+                padding-top:80px;
+            width: 40%;
+            height: auto
+
+            }
+
+            .bg2 .njr-col100 img{
+             padding-top: 60px;
+            width: 85%;
+            height: auto;
+
+            }
+
+
+            .bg2 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 20px;               
+                font-size: 24px; 
+                color: #fff; 
+                text-align: center;
+                padding: 0px 0px 0px 0px;
+                font-weight: normal;
+                }
+            
+            .bg3{
+                background: #03aba5;
+            width: 100%;
+            height:450px; 
+            }
+            
+            .bg3 img{
+                
+            margin-top: 25px;
+            width: 100%;
+            height: auto;
+            }
+
+            .bg3 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 120px;              
+                font-size: 24px; 
+                color: #fff; 
+                text-align: left; 
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+                }
+            
+            .bg4{
+                background: #03aba5;
+            width: 100%;
+            height:400px; 
+            }
+            
+            .bg4 img{
+            padding:30px;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            }
+
+                  
+            .bg4 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 60px;
+                font-size: 24px; 
+                color: #fff; 
+                text-align: left;
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+                }
+            
+            .bg5{
+                background: #03aba5;
+            width: 100%;
+            height: 400px; 
+            }
+            
+            .bg5 img{
+                width: 100%;
+            padding-top: 0px;
+            height: auto;
+            }
+            
+            .bg5 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 80px;               
+                font-size: 24px; 
+                color: #fff; 
+                text-align: left;
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+            }
+
+            .bg6{
+                background: #03aba5;
+            width: 100%;
+            height: 800px; 
+            }
+            
+
+            .bg6 img{
+                padding: 0px 0px 0px 0px;
+            width: 100%;
+            height: auto;
+            }
+            
+            .bg6 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 80px;               
+                font-size: 24px; 
+                color: #fff; 
+                text-align: left;
+                font-weight: normal;
+                padding: 0px 50px 0px 0px;
+            }
+
+            .bg6 .njr-col100 img{
+                padding: 0px 0px 50px 0px;
+            width: 100%;
+            height: auto;
+            }
+                 
+            .bg6 .njr-col100 h1{
+
+                font-family:'Maven Pro', sans-serif;
+                margin: 0px;
+                font-size: 28px; 
+                color: #fff; 
+                text-align: center;
+                font-weight: normal;
+                padding: 0px 0px 0px 0px;
+
+            }
+
+            .bg6 .njr-col100 h3{
+
+font-family:'Maven Pro', sans-serif;
+margin: 0px;
+font-size: 24px; 
+color: #fff; 
+text-align: center;
+font-weight: normal;
+padding: 20px 0px 0px 0px;
+
+}
+
+.bg7{
+                background: #03aba5;
+            width: 100%;
+            height:400px; 
+            }
+            
+            .bg7 img{
+            padding:30px;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            }
+
+                  
+            .bg7 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 140px;
+                font-size: 24px; 
+                color: #fff; 
+                text-align: left;
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+                }
+            
+            .bg8{
+             background: #03aba5;
+            width: 100%;
+            height: 350px; 
+            }
+            
+            .bg8 img{
+            width: 100%;
+            padding-top: 10px;
+            height: auto;
+            }
+            
+            .bg8 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 80px;               
+                font-size: 24px; 
+                color: #fff; 
+                text-align: left;
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+            }
+
+            .bg9{
+                background: #000;
+            width: 100%;
+            height:653px;
+            }
+
+            .bg9 h3{
+
+                font-family:'Maven Pro', sans-serif;
+                 margin: 0; 
+                 font-size: 24px; 
+                 color: #fff; 
+                 text-align: center;
+                 padding-top: 60px;
+            }
+
+            .njr-footer{
+            background: #fff;
+            width: 900px;
+            height: auto;         
+
+           }
+            
+           .njr-footer img{             
+            width: 190px;
+            height: 132px;
+            padding: 30px;
+           }
+
+@media only screen and (max-width:740px) {
+
+
+    body,html{
+             width: 100%;
+             margin: 0;
+             margin-right: auto;
+             margin-left: auto;
+             background: #03aba5;
+            }
+
+    .njr-content{
+            width: 100%;
+            text-align: center;
+         
+            }
+            
+            .njr-col50{
+            width: 98%; 
+            padding: 3px;
+            float: none;
+            }
+            
+            .njr-col50l{
+            width: 98%; 
+            padding: 5px;
+            float: none;
+            }
+            
+            .njr-col50r{
+            width: 98%; 
+            padding: 5px;
+            float: none;
+            }
+
+            .bg1{
+            background: url(img/njr-bg1.jpg) ;            
+            background-size: cover;
+     background-color: #03aba5;
+    width: 100%; 
+    height: 450px; 
+    margin-right: auto;
+    margin-left: auto;
+            }
+        
+
+            .bg1 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 10px;
+                padding-left: 55px;
+                font-size: 24px; 
+                text-align:left;
+                padding-top: 250px;
+                }
+            
+            .bg2{
+                background: #03aba5;
+    width: 100%;
+     height:100%;    
+    margin-right: auto;
+    margin-left: auto;
+            }
+            
+            .bg2 img{
+            padding-top: 50px;
+            width: 100%;
+            height: auto;
+            }
+
+            .bg2 .njr-col50r img {
+    padding-top: 45px;
+    width: 80%;
+    height: auto;
+}
+
+
+
+            .bg2 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 0px;
+                font-size: 20px; 
+                color: #fff; 
+                text-align: center;
+                padding: 0px 0px 0px 0px;
+                }
+
+                .bg2 .njr-col50l{
+            width: 40%;
+            float: left;       
+            overflow: hidden;
+            }
+            
+            .bg2 .njr-col50r{
+            width: 40%;          
+            float: right;  
+            overflow: hidden;
+            }
+                
+            
+            .bg3{
+            background: #03aba5;
+            width: 100%;
+     height:100%;    
+    margin-right: auto;
+    margin-left: auto;
+            }
+            
+            .bg3 img{
+            margin-top: 0px;
+            width: 100%;
+            height: auto;
+            }
+
+            .bg3 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 50px; 
+                margin-left: 0px; 
+                font-size: 20px; 
+                color: #fff; 
+                text-align: center; 
+                padding: 0px 0px 0px 0px;
+                }
+            
+            .bg4{
+            background: #03aba5;
+            width: 100%;
+     height:100%;    
+    margin-right: auto;
+    margin-left: auto;
+            }
+            
+            .bg4 img{
+            padding: 0px;
+            width: 80%;
+            height: auto;
+           
+            }
+
+            .bg4 .njr-col100 img{
+               padding-bottom: 0px;
+            width: 100%;
+            height: auto;
+            }
+                 
+            .bg4 .njr-col100 h1{
+
+                font-family:'Maven Pro', sans-serif;
+                margin: 50px;
+                font-size: 20px; 
+                color: #fff; 
+                text-align: center;
+                font-weight: normal;
+                padding: 0px 0px 50px 0px;
+
+            }
+
+
+            .bg4 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 50px;
+                padding-left: 0px;
+                font-size: 20px; 
+                color: #fff; 
+                text-align: center;
+                }
+            
+            .bg5{
+            background: #03aba5;
+            width: 100%;
+     height:100%;    
+    margin-right: auto;
+    margin-left: auto;
+            }
+            
+            .bg5 img{
+            padding-top: 0px;
+            width: 100%;
+            height: auto;
+            }
+            
+            .bg5 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 80px;
+                padding-left: 0px;
+                font-size: 20px; 
+                color: #fff; 
+                text-align: center;
+            }
+
+            .bg6{
+            background: #03aba5;
+            width: 100%;
+     height:100%;    
+    margin-right: auto;
+    margin-left: auto;
+            }
+
+            .bg6 h3{
+                padding:50px 0px 50px 0px;
+                font-family:'Maven Pro', sans-serif;
+                 margin: 0; 
+                 font-size: 18px; 
+                 color: #fff; 
+                 text-align: center;
+            }
+
+            .bg6 img {
+    padding: 30px 0px 0px 0px;
+    width: 80%;
+    height: auto;
+}
+
+            .bg6 .njr-col100 img{
+          padding:30px 0px 40px 0px;
+            width: 100%;
+            height: auto;
+            }
+
+            .bg6 .njr-col100 .bg6img {
+    padding: 10px;
+    width: 90%;
+    height: auto;
+}
+                 
+            .bg6 .njr-col100 h1{
+
+                font-family:'Maven Pro', sans-serif;
+                margin: 0px;
+                font-size: 24px; 
+                color: #fff; 
+                text-align: center;
+                font-weight: normal;
+                padding: 0px 0px 0px 0px;
+
+            }
+
+            .bg6 .njr-col100 h3 {
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    padding: 20px 0px 0px 0px;
+}
+
+            .bg7{
+                background: #03aba5;
+            width: 100%;
+            height:400px; 
+            }
+            
+            .bg7 img{
+            padding:0px;
+            margin: 0;
+            width: 100%;
+            height: auto;
+            }
+
+                  
+            .bg7 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 50px;
+                font-size: 24px; 
+                color: #fff; 
+                text-align: center;
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+                }
+            
+            .bg8{
+             background: #03aba5;
+            width: 100%;
+            height: 700px; 
+            }
+            
+            .bg8 img{
+            width: 100%;
+            padding-top: 10px;
+            height: auto;
+            }
+            
+            .bg8 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 80px;               
+                font-size: 24px; 
+                color: #fff; 
+                text-align: center;
+                font-weight: normal;
+                padding: 0px 0px 0px 60px;
+            }
+
+            .bg9{
+                background: #000;
+            width: 100%;
+            height:auto;
+            }
+            .bg9 img{
+            width: 100%;
+            height: 100%;
+            padding-top: 0px;
+            height: auto;
+            }
+
+          
+
+    
+}
+
+@media only screen and (max-width: 540px) {
+    .bg1{
+            background: url(img/njr-bg1.jpg) ;            
+            background-size: cover;
+     background-color: #03aba5;
+    width: 100%; 
+    height:350px; 
+    margin-right: auto;
+    margin-left: auto;
+            }
+        
+
+            .bg1 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 0px;
+                padding-left: 40px;
+                font-size: 18px; 
+                text-align:left;
+                padding-top: 180px;
+                }
+
+}
+
+@media only screen and (max-width: 450px) {
+
+    .njr-col75l {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.njr-col25r {
+    width: 100%;
+    float: right;
+    overflow: hidden;
+}
+
+
+
+    .bg1{
+            background: url(img/njr-bg1.jpg) ;            
+            background-size: cover;
+     background-color: #03aba5;
+    width: 100%; 
+    height:280px; 
+    margin-right: auto;
+    margin-left: auto;
+            }
+        
+
+            .bg1 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 0px;
+                padding-left: 35px;
+                font-size: 16px; 
+                text-align:left;
+                padding-top: 150px;
+                }
+
+                .bg6 img {
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.bg6 h3 {
+    padding: 50px 0px 0px 0px;
+    font-family: 'Maven Pro', sans-serif;
+    margin: 0;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+                .bg7 h3 {
+    font-family: 'Maven Pro', sans-serif;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+}
+
+.bg8 {
+    background: #03aba5;
+    width: 100%;
+    height: 600px;
+}
+
+.bg8 h3 {
+    font-family: 'Maven Pro', sans-serif;
+    margin-top: 80px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    padding: 0px 0px 0px 0px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 345px) {
+    .bg1{
+            background: url(img/njr-bg1.jpg) ;            
+            background-size: cover;
+     background-color: #03aba5;
+    width: 100%; 
+    height:220px; 
+    margin-right: auto;
+    margin-left: auto;
+            }
+        
+
+            .bg1 h3{
+                font-family:'Maven Pro', sans-serif;
+                margin-top: 0px;
+                padding-left: 15px;
+                font-size: 14px; 
+                text-align:left;
+                padding-top: 120px;
+                }
+
+}
+            </style>
+            
+
+    </head>
+<body>
+
+<div class="njr-content bg1" >
+
+
+<div class="njr-col50">
+
+   <h3>
+    A EVOLUÇÃO DO<br>
+    FILTRO DE LINHA!<br>
+    Mais segurança para <br>
+    os seus aparelhos<br>
+    elétricos!</h3>
+</div>
+</div>
+
+
+<div class="njr-content bg2">
+
+     <div class="njr-col50l">
+        <img src="img/njr-icon1.png" alt="">  
+    </div>
+
+    <div class="njr-col50r">
+        <img src="img/njr-icon2.png" alt="">  
+        <h3>2 portas USB 2.4A<br>
+            Carga Rápida</h3>
+    </div>
+</div>
+
+<div class="njr-content bg3">
+
+    <div class="njr-col50l"> 
+      
+        <h3>
+            4 TOMADAS LIVRES DE<br>
+            BLOQUEIO: design em forma<br>
+            de cubo que permite utilizar<br>
+            todas as tomadas ao mesmo<br>
+            tempo.</h3>
+    </div> 
+
+    <div class="njr-col50r">
+        <img src="img/njr-icon3.png">  
+    </div>
+</div>
+
+
+<div class="njr-content bg4">
+
+    <div class="njr-col50r">
+      <h3>
+        PROTEÇÃO EXTRA PARA <br>
+CRIANÇAS: o sistema Child  <br>
+Lock bloqueia a entrada das  <br>
+tomadas e impede que  <br>
+objetos possam ser inseridos  <br>
+individualmente nos orifícios  <br>
+Fase e Neutro.
+          </h3>
+      </div> 
+
+      <div class="njr-col50l">
+          <img src="img/njr-icon4.png" alt="">  
+      </div>
+
+</div>
+
+
+
+<div class="njr-content bg5">
+  
+ 
+
+    <div class="njr-col50l">
+    <h3>
+        MAIS SEGURANÇA para seus<br>
+        aparelhos eletrônicos: disjuntor<br>
+        resetável e proteção contra <br>
+        surtos e picos de energia.</h3>
+    </div>
+
+   <div class="njr-col50r">
+        <img src="img/njr-icon5.png">  
+    </div>
+
+    
+</div>
+
+
+
+<div class="njr-content bg6">
+
+    <div class="njr-col25r">
+      <h3>
+        Design inovador <br>
+premiado <br>
+internacionalmente.<br>
+Estrutura compacta <br>
+e discreta.<br>
+Produto certificado. 
+          </h3>
+      </div> 
+
+      <div class="njr-col75l">
+          <img src="img/njr-icon6.png" alt="">  
+      </div>
+
+      <div class="njr-col100">     
+          
+               <img src="img/njr-img0.jpg" alt="">
+        <h1><b>Dê adeus aos cabos emaranhados!</b><br> </h1>
+        <h3> Com o PowerCube seu ambiente<br>
+         fica muito mais organizado.</h3>
+  
+      </div>
+
+</div>
+
+<div class="njr-content bg7">
+
+    <div class="njr-col50l">
+      <h3>
+        Estrutura em polímero<br>
+        antichamas.
+          </h3>
+      </div> 
+
+      <div class="njr-col50r">
+          <img src="img/njr-icon7.png" alt="">  
+      </div>
+
+</div>
+
+
+
+<div class="njr-content bg8">
+  
+ 
+
+    <div class="njr-col50r">
+    <h3>
+        Acompanha Dock Station <br>
+        antichamas.<br>
+        e fita adesiva. <br>
+        Fixe seu PowerCube em <br>
+        qualquer lugar.</h3>
+    </div>
+
+   <div class="njr-col50l">
+        <img src="img/njr-icon8.png">  
+    </div>
+
+    </div>
+
+    
+    <div class="njr-content bg9">
+        <img src="img/njr-img1.jpg" alt="">  
+    </div>
+
+</body>
+
+<div class="njr-content njr-footer">
+    
+
+<img src="img/njr-logo.png" alt="">
+</div>
+</div>
+
+</html>
