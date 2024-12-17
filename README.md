@@ -1,4 +1,4 @@
-# Lâminas para Loja Multilaser
+# Lâminas para Loja Multilaser VTEX
 
 Este repositório contém diversos layouts e lâminas responsivas criadas para a loja online **Multilaser**. As lâminas são projetadas para apresentar uma variedade de **produtos**, incluindo **games** e **periféricos**, de forma otimizada e atrativa.
 
